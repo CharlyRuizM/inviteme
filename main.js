@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: '/json/proximamente.json' // La ruta al archivo JSON de tu animación
+        path: './json/proximamente.json' // La ruta al archivo JSON de tu animación
     };
     var anim = lottie.loadAnimation(animData);
 });

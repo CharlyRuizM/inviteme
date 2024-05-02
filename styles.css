@@ -8,6 +8,7 @@ body, html {
     align-items: center;
     justify-content: flex-start;
     background-color: rgb(0, 72, 107);
+    scroll-behavior: smooth;
 }
 
 #main-content {
@@ -110,6 +111,21 @@ body, html {
 
 #lottie9 {
     margin-left: -1px;
+    position: relative;
+}
+
+#timer {
+    display: flex;
+    position: absolute;
+    gap: 3vw;
+    z-index: 99;
+    top: 28%;
+    left: 43%;
+    transform: rotate(-4deg);
+    flex-direction: column;
+    justify-content: center;
+    font-size: 4vw;
+    align-items: flex-end;
 }
 
 #full-width-lottie-loader {
